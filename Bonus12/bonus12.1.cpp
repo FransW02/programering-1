@@ -25,21 +25,24 @@ cin>>p;
 	
 
 
-for(int b = 5; b > 0;b--){
+for(int b = 5; b >= 0;b--){
 
 
 if(b == p){
 	
 	
 array[b] = ny;	
-	
+
+cout<<array[b]<<endl;
 }
 
 if(b != p){
 	
 
 
-cout<<array[b]<<endl;	
+cout<<array[b]<<endl;
+
+
 
 }
 }
