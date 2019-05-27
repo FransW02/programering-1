@@ -24,7 +24,7 @@ svar3 = a - 160;
 svar4 = svar3 * 150;
 svar5 = svar2 + svar4;	
 
-cout<<"din lön är " << svar5;
+cout<<"din lön är kr " << svar5;
 
 }
 
