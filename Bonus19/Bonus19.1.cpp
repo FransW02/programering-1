@@ -8,20 +8,15 @@
 using namespace std;
 int main(int argc, char** argv) {
 
-cout<<100;
-
-
-
 bool cool = true;
 
-
-while(cool == true){
-
-int f = 1;
-int e = 100;
+int f = 0;
+int e = 99;
 int x = 1;
 int y = 100;
 
+
+while(cool == true){
 
 int a,b,c;
 
@@ -68,15 +63,12 @@ cout<<"Du gissade rätt";
 return 0;	
 }
 
-cout<<y<<endl<<e<<endl<<f<<endl<<x;
-
-
 
 
 if(f > x and y > e){
 	
 b = rand()%y + f;
-cout<<b<<endl;
+cout<<b;
 cout<<y<<" "<<f;	
 	
 }
@@ -89,13 +81,13 @@ cout<<e<<" "<<f;
 if(x > f and y > e){
 	
 b = rand()%y + x;
-cout<<b<<endl;	
+cout<<b;	
 cout<<y<<" "<<x;	
 }
 if(x > f and e > y){
 	
 b = rand()%e + x;	
-cout<<b<<endl;	
+cout<<b;	
 cout<<e<<" "<<f;	
 }
 

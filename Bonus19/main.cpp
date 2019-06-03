@@ -8,9 +8,6 @@
 using namespace std;
 int main(int argc, char** argv) {
 
-cout<<100;
-
-
 
 bool cool = true;
 
@@ -19,8 +16,8 @@ while(cool == true){
 
 int f = 1;
 int e = 100;
-int x = 1;
-int y = 100;
+int x = 2;
+int y = 99;
 
 
 int a,b,c;
@@ -68,33 +65,31 @@ cout<<"Du gissade rätt";
 return 0;	
 }
 
-cout<<y<<endl<<e<<endl<<f<<endl<<x;
-
 
 
 
 if(f > x and y > e){
-	
-b = rand()%y + f;
+cout<<"1 pack"<<endl;	
+b = rand()%e + f;
 cout<<b<<endl;
 cout<<y<<" "<<f;	
 	
 }
-if(f > x and e > y)	{
-	
-b = rand()%e + f;
+if(f > x and e > y or e == y)	{
+	cout<<"2 pack"<<endl;
+b = rand()%y + f;
 cout<<b;
 cout<<e<<" "<<f;	
 }
 if(x > f and y > e){
-	
-b = rand()%y + x;
+	cout<<"3 pack"<<endl;
+b = rand()%e + x;
 cout<<b<<endl;	
 cout<<y<<" "<<x;	
 }
-if(x > f and e > y){
-	
-b = rand()%e + x;	
+if(x > f and e > y or e == y){
+	cout<<"4 pack"<<endl;
+b = rand()%y + x;	
 cout<<b<<endl;	
 cout<<e<<" "<<f;	
 }

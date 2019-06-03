@@ -16,14 +16,16 @@ return heltal;
 
 int main(int argc, char** argv) {
 	
-int a,svar;	
+	
+	
+int a;	
 	
 
 	
 cout<<"skriv in ett tal ";
 cin>>a;
 	
-cout<<heltal;
+cout<<IncreaseFunction(a);
 
 		
 	return 0;

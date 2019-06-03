@@ -5,9 +5,11 @@
 using namespace std;
 
 
-int calc(int a, int b, int c, int tiden){
+int calc(int a, int b){
 	
+int tiden;	
 	
+int c;	
 
 tiden = time(0);
 
@@ -22,14 +24,6 @@ c = (rand()%a) + b;
 return c;
 
 }
-
-
-
-
-
-
-
-
 int main(int argc, char** argv) {
 	
 	
@@ -45,7 +39,10 @@ cout<<"skriv minsta möjliga heltal ";
 cin>>b;	
 	
 	
-calc(a,b,c,d);
+calc(a,b);
+
+
+cout<<calc(a,b);
 	
 	return 0;
 }

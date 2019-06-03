@@ -1,16 +1,32 @@
-    
 #include <iostream>
 
 using namespace std;
 
-int Talsum(int sum) {
+int Talsum(int a) {
 
-if(sum != 0) {
-sum = sum + Talsum(sum-1);
+int b;
+
+if(a == 1) {
+	
+b = 1;
+
+} else {
+	
+	
+b = a * Talsum(a -1);	
+	
 }
 	
-return sum;
+
+
+	
+return b;	
+		
+	
 }
+	
+
+
 
 int main(int argc, char** argv) {
 
