@@ -9,7 +9,7 @@ int calc(float a, float b, string input){
 
 float c;
 	
-if(input == "Hypotenusa"){
+if(input == "kypotenusa"){
 	
 c = (a * a) + (b * b);
 			
@@ -19,7 +19,7 @@ return c;
 	
 }	
 	
-if(input == "Kateter"){
+if(input == "kateter"){
 	
 b = b * b;
 a = a * a;
@@ -27,6 +27,7 @@ a = a * a;
 b = b - a;
 
 c = sqrt(b);
+
 
 
 return c;	
@@ -50,7 +51,7 @@ cout<<"Vilken sida ska räknas ut"<<endl;
 string input;
 cin>>input;	
 
-cout<<"skriv a först sedan b eller c";
+cout<<"skriv a först sedan b eller c"<<endl;
 
 	
 cin>>a;	

@@ -13,8 +13,8 @@ b = 1;
 } else {
 	
 	
-b = a * Talsum(a -1);	
-	
+b = a * Talsum(a - 1);	
+			
 }
 	
 
