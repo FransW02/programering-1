@@ -199,9 +199,9 @@ int main(int argc, char** argv) {
 
 
 
-int radie,vikt;
+int radie;
 string farg;
-
+int vikt;
 
 cout<<"skriv in radie, färg och vikt av en boll"<<endl;
 cin>>radie;
@@ -209,7 +209,7 @@ cin>>farg;
 cin>>vikt;
 cout<<endl;
 
-obj boll(radius, color, weight, x, y)
+obj boll ();
 
 karta();
 
